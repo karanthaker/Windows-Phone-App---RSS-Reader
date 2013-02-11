@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Karan Thaker
+karan.thaker@hotmail.com
+-->
+<opml version="1.0">
+    <head>
+        <title>Content RSS</title>
+    </head>
+    <body>
+        <outline title="News" text="News">
+            <outline text="USA Today" title="USA Today" type="rss" xmlUrl="http://rssfeeds.usatoday.com/usatoday-NewsTopStories"/>
+            <outline text="CNN" title="CNN" type="rss" xmlUrl="http://rss.cnn.com/rss/edition.rss"/>
+        </outline>
+
+        <outline title="Innovation" text="Innovation">
+            <outline text="Success Stories" title="Success Stories" type="rss" xmlUrl="http://www.ideaconnection.com/rss/innovation-success.xml"/>
+            <outline text="Inventions" title="Inventions" type="rss" xmlUrl="http://www.ideaconnection.com/rss/invention-success.xml"/>
+            <outline text="Business Innovation"	 title="Business Innovation" type="rss" xmlUrl="http://www.ideaconnection.com/rss/innovation-in-business.xml"/>
+            <outline text="Videos" title="Videos" type="rss"  xmlUrl="http://www.ideaconnection.com/rss/videos.xml"/>
+            <outline text="Author Interviews" title="Author Interviews" type="rss" xmlUrl="http://www.ideaconnection.com/rss/articles.xml"/>
+            <outline text="Corporate Interviews" title="Corporate Interviews" type="rss" xmlUrl="http://www.ideaconnection.com/rss/interviews.xml"/>
+        </outline>
+
+        <outline title="Sports" text="Sports">
+            <outline text="Headlines" title="Headlines" type="rss" xmlUrl="http://sports.espn.go.com/espn/rss/news"/>
+            <outline text="NFL" title="NFL" type="rss" xmlUrl="http://sports.espn.go.com/espn/rss/nfl/news"/>
+            <outline text="NBA" title="NBA" type="rss" xmlUrl="http://sports.espn.go.com/espn/rss/nba/news"/>
+            <outline text="NHL" title="NHL" type="rss" xmlUrl="http://sports.espn.go.com/espn/rss/nhl/news"/>
+            <outline text="Motorsports" title=" Motorsports" type="rss" xmlUrl="http://sports.espn.go.com/espn/rss/rpm/news"/>
+            <outline text="Soccer" title="Soccer" type="rss" xmlUrl="http://soccernet.espn.go.com/rss/news"/>
+        </outline>
+
+        <outline title="Tech" text="Tech">
+			<outline text="Engadget" title="Engadget" type="rss" xmlUrl="http://www.engadget.com/rss.xml"/>
+			<outline text="NASA Daily" title="NASA Daily" type="rss" xmlUrl="http://www.nasa.gov/rss/image_of_the_day.rss"/>
+			<outline text="PC World" title="PC World" type="rss" xmlUrl="http://feeds.pcworld.com/pcworld/latestnews"/>
+			<outline text="Mac World" title="Mac World" type="rss" xmlUrl="http://rss.macworld.com/macworld/feeds/main"/>
+		</outline>
+    </body>
+</opml>
